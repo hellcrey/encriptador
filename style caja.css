@@ -1,0 +1,39 @@
+body{
+}
+
+.div1{
+    background: whitesmoke;
+    margin: 8px;    
+    padding: 1px 0px 8px 8px;
+    border: outset ;
+    border-radius: 10px;
+}
+
+.div1 p{
+    font-size: 23px;
+}
+  
+.btnAceptar, .btnCancelar{
+    padding: 8px;
+    margin-right: 3px;
+}
+
+.btnAceptar{
+    background-color: rgb(35, 153, 192);
+    color: white;
+    border: none;
+}
+
+.btnCancelar{
+    background-color: lightslategray;
+    border: none;
+    color: aliceblue;
+}
+
+.btnAceptar:hover,.btnCancelar:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+    color: purple;
+    cursor: pointer;
+}
+
